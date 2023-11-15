@@ -7,19 +7,19 @@
  </head>
  <body>
   <header>
-   <h1>TeXworksのタイプセットできない問題を解消する方法</h1>
+   <h1>TeXWorksのタイプセットできない問題を解消する方法</h1>
   </header>
 
   <section>
    <h2>なにそれ？</h2>
 
-   <p>TeXworksという，TeX用のエディタがあります．このエディタは非常に使いやすく，コンパイルもクリック一つでできてしまうとても扱いやすいエディタ（オススメ！）なのですが，分かりやすい反面中身がどうなっているかを意識する場面が少ないため，実際にエラーが起きるとなぜそうなったのかが理解できないという問題が起きてしまいます．<br>今回は，TeXworksにある数々のエラーの中でも調べても殆ど解決方法がヒットしないようなエラーの修正方法を紹介していきたいと思います．</p>
+   <p>TeXWorksという，TeX用の<a href="https://github.com/TeXworks/texworks/releases/">エディタ</a>があります．このエディタは非常に使いやすく，PDF化もクリック一つでできてしまうとても扱いやすいエディタ（オススメ！）なのですが，分かりやすい反面中身がどうなっているかを意識する場面が少ないため，実際にエラーが起きるとなぜそうなったのかが理解できないという問題が起きてしまいます．<br>今回は，TeXWorksにある数々のエラーの中でも調べても殆ど解決方法がヒットしないようなエラーの修正方法を紹介していきたいと思います．</p>
   </section>
 
     <section>
    <h2>エラー</h2>
 
-   <p>pLaTeXまたはpTeXを選択した状態で，タイプセットを実行すると，以下のようなエラーが発生します．<br><br>Invalid PATH setting found. Please ensure that cmd.exe can be found.<br><br>意味としては「おかしなPATHがあるよ、cmd.exeをきちんと見つけられるようにしてよ」といったものです．しかし，これを Googleで検索してみても，ページは 8 件程度しかヒットしません．</p>
+   <p>pLaTeXまたはpTeXを選択した状態で，タイプセットを実行すると，以下のようなエラーが発生します．<br><br>Invalid PATH setting found. Please ensure that cmd.exe can be found.<br><br>意味としては「おかしなPATHがあるよ、cmd.exeをきちんと見つけられるようにしてよ」といったものです．しかし，これを Googleで検索してみても，ページはそれほどヒットしません．</p>
   </section>
 
     <section>
@@ -31,7 +31,7 @@ Windowsでは「設定」から「システム環境変数」と検索するな�
 <li>%SystemRoot%\system32</li>
 <li>%SystemRoot%</li>
 </ol>
-<p>これを追加して，再度TeXworksを起動してタイプセットをしてみてください．</p>
+<p>これを追加して，再度TeXWorksを起動してタイプセットをしてみてください．私は，これで解決しました．</p>
   </section>
 
   <section>
@@ -41,6 +41,9 @@ Windowsでは「設定」から「システム環境変数」と検索するな�
      <li>MIcrosoft Windows - TeX Wiki https://texwiki.texjp.org/?Microsoft%20Windows</li>
     </ol>
    </article>
+  </section>
+    <section>
+ <p>それでは，よいTeXライフを！</p>
   </section>
   <footer>
    <p>2023 Laateu</p>
