@@ -19,7 +19,7 @@
 #pageHead .globalNavi ul:after{
     content:"";
     clear:both;
-    display:block;
+    display:flex;
 }
 
 #pageHead .globalNavi ul li:first-child{
