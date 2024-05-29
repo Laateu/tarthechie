@@ -33,7 +33,10 @@
     padding: 7px 0;
 }
 
-#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li a:hover{
+    background-color: #21839b;
+}
+
 #pageHead .globalNavi ul li.current a{
     background-color: #3193ab;
 }
