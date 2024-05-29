@@ -29,6 +29,7 @@
 #pageHead .globalNavi ul li a{
     color: inherit;
     text-decoration: none;
+    float: left;
     display: flex;
     padding: 7px 0;
 }
