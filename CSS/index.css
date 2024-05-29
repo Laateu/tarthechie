@@ -1,0 +1,39 @@
+#pageHead.globalNavi{
+    border:solid #41a3bb;
+    border-width:1px 0;
+    padding:10px;
+}
+
+#pageHead .globalnavi ul li{
+    list-style:none;
+    width: 196px;
+    float: left;
+    border-left: solid 1px #336699;
+    padding: 0 10px;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:14px;
+    line-height: 1.429;
+}
+
+#pageHead .globalNavi ul:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+#pageHead .globalNavi ul li:first-child{
+    border-left:none;
+}
+
+#pageHead .globalNavi ul li a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0;
+}
+
+#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li.current a{
+    background-color: #3193ab;
+}
