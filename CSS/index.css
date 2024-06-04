@@ -1,6 +1,13 @@
 #title{
     font: メイリオ;
-    color: #886644;
+    color: #224488;
+    background-color: #112244;
+    padding-left: 15px;
+}
+
+#catchcopy{
+    padding-left:20px;
+    color: #8899AA;
 }
 
 #pageHead .globalNavi{
