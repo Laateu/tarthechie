@@ -1,7 +1,12 @@
-#pageHead.globalNavi{
+#pageHead .globalNavi{
     border:solid #41a3bb;
     border-width:1px 0;
     padding:10px;
+}
+
+#pageHead .globalNavi ul{
+    margin: 0;
+    padding: 0;
 }
 
 #pageHead .globalNavi ul li{
@@ -19,7 +24,7 @@
 #pageHead .globalNavi ul:after{
     content:"";
     clear:both;
-    display:flex;
+    display:block;
 }
 
 #pageHead .globalNavi ul li:first-child{
