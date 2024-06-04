@@ -11,12 +11,12 @@
 
 #pageHead .globalNavi ul li{
     list-style:none;
-    width: 245px;
+    width: 196px;
     float: left;
     border-left: solid 1px #336699;
     padding: 0 10px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: right;
     font-size: 14px;
     line-height: 1.429;
 }
