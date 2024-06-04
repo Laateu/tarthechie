@@ -28,7 +28,7 @@
 }
 
 #pageHead .globalNavi ul li:first-child{
-    border-left:none;
+    border-left: none;
 }
 
 #pageHead .globalNavi ul li a{
@@ -36,7 +36,7 @@
     text-decoration: none;
     display: inline-block;
     padding: 7px 0;
-    width: 186px;
+    width: 176px;
 }
 
 #pageHead .globalNavi ul li a:hover{
