@@ -16,7 +16,7 @@
     border-left: solid 1px #336699;
     padding: 0 10px;
     box-sizing:border-box;
-    text-align:center;
+    text-align: center;
     font-size:14px;
     line-height: 1.429;
 }
@@ -36,6 +36,7 @@
     text-decoration: none;
     float: left;
     display: block;
+    text-align: center;
     padding: 7px 0;
 }
 
