@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+#titleMargin{
+    padding: 20px 0;
+}
+
 #title{
     font-family: メイリオ;
     color: #224488;
