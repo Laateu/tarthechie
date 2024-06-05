@@ -4,7 +4,7 @@
     background-color: #FFFFFF;
     padding: 30px 0;
     padding-left: 15px;
-    margin: 0 20px;
+    margin: 30px;
     border-left: inset 10px #8de6df;
     border-right: outset 10px #81ccc5;
 }
@@ -12,6 +12,7 @@
 #catchcopy{
     padding-left:20px;
     color: #8899AA;
+    opacity: .5;
     background-color: #FFFFFF;
     border-bottom: dashed 1px #5d64d0;
 }
