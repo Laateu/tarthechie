@@ -1,5 +1,13 @@
 /* 汎用CSS */
 
+.welcome{
+  color:#2f9dd4;
+  font-family: メイリオ;
+  font-size: 28px;
+  margin-left: 20px;
+  text-align: center;
+}
+
 .emphasize{
   color:#2f9dd4;
   font-family: メイリオ;
