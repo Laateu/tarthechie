@@ -1,0 +1,33 @@
+/* 汎用CSS */
+
+.emphasize{
+  color:#2f9dd4;
+  font-family: メイリオ;
+  font-size: 21px;
+}
+
+.section{
+  color: #5da9cf;
+  font-family: メイリオ;
+  font-size: 21px;
+  border-bottom: dashed 1px #2f9dd4;
+}
+
+.subsection{
+  color: #5da9cf;
+  font-family: メイリオ;
+  font-size: 18px;
+  border-bottom: dashed 1px #2f9dd4;
+}
+
+.subsubsection{
+  color: #5da9cf;
+  font-family: メイリオ;
+  font-size: 16px;
+  border-bottom: dashed 1px #2f9dd4;
+}
+
+.description{
+  font-size: 14px;
+}
+
