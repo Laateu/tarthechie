@@ -2,6 +2,7 @@
     font-family: メイリオ;
     color: #224488;
     background-color: #AABBAA;
+    padding: 30px 0;
     padding-left: 15px;
     border-left: inset 10px #8de6df;
     border-right: outset 10px #81ccc5;
@@ -11,6 +12,11 @@
     padding-left:20px;
     color: #8899AA;
     border-bottom: dashed 1px #5d64d0;
+}
+
+header{
+    background-image:url("./Image/gradation_2_row.png");
+    background-repeat:repeat-x;
 }
 
 #pageHead .globalNavi{
