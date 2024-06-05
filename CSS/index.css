@@ -14,7 +14,7 @@
     border-bottom: dashed 1px #5d64d0;
 }
 
-header{
+#pageHead{
     background-image:url("./Image/gradation_2_row.png");
     background-repeat:repeat-x;
 }
