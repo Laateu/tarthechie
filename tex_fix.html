@@ -3,7 +3,8 @@
  <head>
   <meta charset="utf-8">
   <title>やきとりファイア</title>
-  <link="stylesheet" href="yakitori.css">
+  <link="stylesheet" href="./CSS/general.css">
+  <link="stylesheet" href="./CSS/normalize.css">
  </head>
  <body>
   <header>
@@ -11,31 +12,31 @@
   </header>
 
   <section>
-   <h2>なにそれ？</h2>
+   <h2 class="section">なにそれ？</h2>
 
-   <p>TeXWorksという，TeX用の<a href="https://github.com/TeXworks/texworks/releases/">エディタ</a>があります．このエディタは非常に使いやすく，PDF化もクリック一つでできてしまうとても扱いやすいエディタ（オススメ！）なのですが，分かりやすい反面中身がどうなっているかを意識する場面が少ないため，実際にエラーが起きるとなぜそうなったのかが理解できないという問題が起きてしまいます．<br>今回は，TeXWorksにある数々のエラーの中でも調べても殆ど解決方法がヒットしないようなエラーの修正方法を紹介していきたいと思います．</p>
+   <p class="description">TeXWorksという，TeX用の<a href="https://github.com/TeXworks/texworks/releases/">エディタ</a>があります．このエディタは非常に使いやすく，PDF化もクリック一つでできてしまうとても扱いやすいエディタ（オススメ！）なのですが，分かりやすい反面中身がどうなっているかを意識する場面が少ないため，実際にエラーが起きるとなぜそうなったのかが理解できないという問題が起きてしまいます．<br>今回は，TeXWorksにある数々のエラーの中でも調べても殆ど解決方法がヒットしないようなエラーの修正方法を紹介していきたいと思います．</p>
   </section>
 
     <section>
-   <h2>エラー</h2>
+   <h2 class="section">>エラー</h2>
 
-   <p>pLaTeXまたはpTeXを選択した状態で，タイプセットを実行すると，以下のようなエラーが発生することがあります．<br><br>Invalid PATH setting found. Please ensure that cmd.exe can be found.<br><br>意味としては「おかしなPATHがあるよ、cmd.exeをきちんと見つけられるようにしてよ」といったものです．しかし，これを Googleで検索してみても，ページはそれほどヒットしません．</p>
+   <p class="description">pLaTeXまたはpTeXを選択した状態で，タイプセットを実行すると，以下のようなエラーが発生することがあります．<br><br>Invalid PATH setting found. Please ensure that cmd.exe can be found.<br><br>意味としては「おかしなPATHがあるよ、cmd.exeをきちんと見つけられるようにしてよ」といったものです．しかし，これを Googleで検索してみても，ページはそれほどヒットしません．</p>
   </section>
 
     <section>
-   <h2>対処法</h2>
+   <h2 class="section">>対処法</h2>
 
-   <p>大体こういう時は（エラー文にも書いてある通り）コンピュータのシステム環境変数にあるPATHがおかしなことになっているので，以下の方法でPATHを再設定しましょう．<br>
+   <p class="description">大体こういう時は（エラー文にも書いてある通り）コンピュータのシステム環境変数にあるPATHがおかしなことになっているので，以下の方法でPATHを再設定しましょう．<br>
 Windowsでは「設定」から「システム環境変数」と検索するなどして「システムのプロパティ」を開き，一番下にある環境設定のPATHをダブルクリックし，以下の二つを追加してください．</p>
 <ol>
 <li>%SystemRoot%\system32</li>
 <li>%SystemRoot%</li>
 </ol>
-<p>これを追加して，再度TeXWorksを起動してタイプセットをしてみてください．</p>
+<p class="description">これを追加して，再度TeXWorksを起動してタイプセットをしてみてください．</p>
   </section>
 
   <section>
-  <h2>参考にしたサイト</h2>
+  <h2 class="section">>参考にしたサイト</h2>
    <article>
     <ol>
      <li>MIcrosoft Windows - TeX Wiki https://texwiki.texjp.org/?Microsoft%20Windows</li>
@@ -43,7 +44,7 @@ Windowsでは「設定」から「システム環境変数」と検索するな�
    </article>
   </section>
     <section>
- <p>それでは，よいTeXライフを！</p>
+ <p class="enphasize">>それでは，よいTeXライフを！</p>
   </section>
   <footer>
    <p>2023 Laateu</p>
