@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+  <title>たいとる</title>
+  <link rel="stylesheet" href="./CSS/normalize.css"/>
+  <link rel="stylesheet" href="./CSS/general.css"/>
+  <link rel="stylesheet" href="./CSS/index.css"/>
+ </head>
+ <body>
+  <header id="pageHead">
+   <div class = "head">
+    <p id="titleMargin"> </p>
+    <h1 id="title">ホームページ</h1>
+    <p id="catchcopy">なにものかのなにものかによるなにものかのための処刑場</p>
+   </div>
+   <nav class="globalNavi">
+    <ul>
+     <li><a href="./index.html">HOME</a></li>
+     <li><a href="./introduction.html">ABOUT US</a></li>
+     <li><a href="./games.html">GAMES</a></li>
+     <li><a href="./musics.html">MUSIC ROOM</a></li>
+     <li class="current"><a href="./js.html">すこしまじめなハナシ</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <section>
+   <article>
+    <h1 class="welcome">JavaScriptを、勉強しましょう！！！</h1>
+    <p class="descriptionCenter">JavaScriptのちからってすげー！<br>いまでは  JavaScriptでHTMLをつくれるんだと！<br>…という前置きはさておき，私と一緒にJavaScriptを学んでいきましょう．</p>
+   </article>
+   <article>
+    <h1 class="section">0. JavaScriptのいろは</h1>
+    <h2 class="subsection">0.0. JavaScriptを起動するには</h2>
+    <p>ソースをそのままHTMLに直書きしたい場合は，&lt;script&gt;と&lt;/script&gt;の間に JavaScriptのソースコードを書きましょう．</p>
+    <p>ソースコードをHTMLに書かず，ファイルに分けたい場合は&lt;script src="jsファイル"&gt;というように，直接ファイルを指定しましょう．ちなみにJavaScriptのスクリプトの拡張子は"js"です．</p>
+   </article>
+    <article>
+      <h2 class="subsection">0.1. Hello World を表示させよう</h2>
+        <p>さて，まずは"Hello World"を表示させましょう．JavaScriptはC言語やPythonとは違い，ターミナル環境で実行できません．そのかわり，自分でHTMLが使える環境があれば普通に組み込めるほか，Web上にはJavaScriptを実行できる環境が多くあるようです．例えば，</p>
+        <ul>
+          <li><a href="http://jsfiddle.net/">JSFiddle</a></li>
+          <li><a href="http://jsdo.it/">jsdo.it</a></li>
+        </ul>
+        <p>というようなサイトがあるようです．話を戻しましょう．JavaScriptでは，出力にalert（アラート）という関数を使います．使い方としては，alert("文字列")というように使うみたいです．これを実行すると，画面上部にアラートとしてポップアップが表示されます．つまり，こんなふうに．</p>
+        <img class="imageleft" src="./Images/alert.png" alt="アラート" />
+        <p>入力には，prompt（プロンプト）関数を使います．prompt("文字列")というように指定すると，説明文の文字列が表示され，下に入力スペースが表示されます．</p>
+        <img class="imageleft" src="./Images/prompt.png" alt="プロンプト" />
+        <p>Hello World を表示させたいのであれば，alert("Hello World")としましょう．ポップアップで，世界に挨拶をしましょう！</p>
+    </article>
+    <article>
+      <h2 class="subsection">0.2. プログラミングをしよう</h2>
+      <p>プログラミングと言えば，算術演算です．足して引いて，かけて割って…。今回は，これらのプログラミングでは欠かせない要素について学んでいきましょう．<br><br>まずは，JavaScript特有の変数について学びましょう．JavaScriptでは，let と呼ばれる値を再代入する事の出来る型と，const と呼ばれる一度値を決めたら変更することのできない定数の二つがあります．<br></p>
+    </article>
+  </section>
+
+  <footer>
+   <p>2024 Taal</p>
+  </footer>
+ </body> 
+</html>
