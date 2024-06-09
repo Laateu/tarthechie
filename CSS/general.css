@@ -80,12 +80,16 @@
 
 /* リスト関係 */
 
-.listpadding{
+.listPadding{
   padding-left: 30px;
 }
 
-.dot{
+.square{
   list-style: square;
+}
+
+.disc{
+  list-style: disc;
 }
 
 /* 画像関係 */
