@@ -78,6 +78,22 @@
   text-height: 1.5em;
 }
 
+.imageLeft{
+  text-align: left;
+}
+
+.imageRight{
+  text-align: right;
+}
+
+.imageCenter{
+  text-align: center;
+}
+
+.imageMarginUB{
+  margin: 0 20px;
+}
+
 footer{
   text-align:center;
   background-color: #3be3bc;
