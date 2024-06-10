@@ -107,7 +107,8 @@
 }
 
 .imageMarginUB{
-  margin: 20px;
+  margin-up: 20px;
+  margin-bottom: 20px;
 }
 
 footer{
