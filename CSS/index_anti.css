@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#titleMargin{
+    padding:20px 0;
+}
+
+#title{
+    font-family: メイリオ;
+    color: #d45151;
+    background-color: #EEEEEE;
+    padding: 30px 0;
+    padding-left: 15px;
+    margin: 0px 20px;
+    margin-bottom: 40px;
+    border-left: inset 10px #88001b;
+    border-right: outset 10px #88003b;
+}
+
+#catchcopy{
+    padding-left:20px;
+    color: #889977;
+    background-color: rgba(FF,FF,FF,.5);
+    border-bottom: dashed 1px #5d64d0;
+}
+
+.head{
+    background-image:url("./../Images/gradation_5.png");
+    background-repeat:repeat-x;
+}
+
+#pageHead .globalNavi{
+    border:solid #7e7e7e;
+    border-width:1px 0;
+    padding:10px 0;
+}
+
+#pageHead .globalNavi ul{
+    margin: 0;
+    padding: 0;
+}
+
+#pageHead .globalNavi ul li{
+    list-style:none;
+    width: 196px;
+    display: inline-block;
+    border-left: solid 1px #7a7a7a;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.429;
+}
+
+#pageHead .globalNavi ul:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+#pageHead .globalNavi ul li:first-child{
+    border-left: none;
+}
+
+#pageHead .globalNavi ul li a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 0;
+    width: 176px;
+}
+
+#pageHead .globalNavi ul li a:hover{
+    background-color: #b36877;
+}
+
+#pageHead .globalNavi ul li.current a{
+    background-color: #9d5d6a;
+}
