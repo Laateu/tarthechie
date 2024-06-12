@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+.top{
+  margin-up: 50px;
+  margin-bottom: 50px;
+}
+
 .emphasize{
   color:#d76e6e;
   font-family: メイリオ;
