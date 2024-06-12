@@ -1,7 +1,3 @@
-let message = showTime();
-console.log(message)
-document.getElementById("date").innerHTML = message;
-
 function showTime(){
   let dates = new Date();
   let month = dates.getMonth() + 1;
@@ -13,5 +9,7 @@ function showTime(){
   let seconds = dates.getSeconds();
   /* padStart() : ゼロ埋めをする  */
   let message = "今日は" + month + "/" + date + "(" + days[day] + ")" + hour.toString().padStart(2,"0") + ":" + minutes.toString().padStart(2,"0") + ":" + seconds.toString().padStart(2,"0") + "です．";
-  return message;
+  document.getElementById("date").innerHTML = message;
 }
+
+setInterval('showTime()',1000);
