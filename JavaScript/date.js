@@ -1,4 +1,6 @@
-document.getElementById("date").innerHTML = showTime();
+let message = showTime();
+console.log(message)
+document.getElementById("date").innerHTML = message;
 
 function showTime(){
   let dates = new Date();
