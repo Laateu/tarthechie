@@ -1,9 +1,9 @@
-document.getElementByID("monthly").innerHTML = showGreetings();
+document.getElementByID("monthly").innerHTML += showGreetings();
 
 function showGreetings(){
   let date = new Date();
   let message = "";
-  let month = date.getMonth();
+  let month = date.getMonth() + 1;
   if (month == 1){
     message = "あけましておめでとうございます。まだまだ寒いですが、お元気ですか？";
   }
