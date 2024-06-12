@@ -1,4 +1,4 @@
-document.getElementByID("date").innerHTML += showTime();
+document.getElementById("date").innerHTML = showTime();
 
 function showTime(){
   let dates = new Date();
