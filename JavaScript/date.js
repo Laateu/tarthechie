@@ -1,6 +1,6 @@
 document.getElementByID("date").innerHTML = showTime();
 
 function showTime(){
-  let date = Date();
+  let date = new Date();
   return date;
 }
