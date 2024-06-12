@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+  <title>対蹠地（たいせきち）</title>
+  <link rel="stylesheet" href="./CSS/normalize.css"/>
+  <link rel="stylesheet" href="./CSS/general.css"/>
+  <link rel="stylesheet" href="./CSS/index_anti.css"/>
+ </head>
+ <body>
+  <header id="pageHead">
+   <div class = "head">
+    <p id="titleMargin"> </p>
+    <h1 id="title">T-Altered Post</h1>
+    <p id="catchcopy">カガミアワセノ ウェブページ</p>
+   </div>
+   <nav class="globalNavi">
+    <ul>
+     <li class="current"><a href="./antipodes.html">HOME</a></li>
+     <li><a href="./kadai.html">ASSIGNMENTS</a></li>
+     <li><a href="./chill.html"></a>RELAX</li>
+     <li><a href="./game.html">CO-OPERATION</a></li>
+     <li><a href="./index.html">???</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <section>
+   <article>
+    <h1 class="welcome">こんばんは！</h1>
+    <p class="descriptionCenter">今日は<div id="date"></div>
+      <script src="./date.js">
+        document.getElementByID("date").innerHTML = showTime();
+
+        function showTime(){
+          let date = Date();
+          return date;
+        }
+      </script>
+     です．
+    </p>
+   </article>
+   <article>
+    <h2 class="section">このサイトについて</h2>
+    <p class="description"> ここは情報技術サークル(ITC)のPROG部制作班用のサイトです．ここに、毎週のお題を表示したり、資料を配置したりします．</p>
+   </article>
+  </section>
+
+  <footer>
+   <p>2024 Taal</p>
+  </footer>
+ </body> 
+</html>
