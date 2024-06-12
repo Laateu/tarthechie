@@ -8,7 +8,7 @@ function showTime(){
   let date = dates.getDate();
   let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   let day = dates.getDay();
-  let hour = dates.getHour();
+  let hour = dates.getHours();
   let minutes = dates.getMinutes();
   let seconds = dates.getSeconds();
   /* padStart() : ゼロ埋めをする  */
