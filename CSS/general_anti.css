@@ -1,0 +1,117 @@
+/* 汎用CSS */
+
+.welcome{
+  color:#d76e6e;
+  font-family: メイリオ;
+  font-size: 28px;
+  margin-left: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.emphasize{
+  color:#d76e6e;
+  font-family: メイリオ;
+  font-size: 28px;
+  margin: 15px;
+  margin-left:20px;
+}
+
+.large{
+  color:#d76e6e;
+  font-family: メイリオ;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.list{
+  margin-left:30px;
+}
+
+.demphasize{
+  color:#d76e6e;
+  font-family: メイリオ;
+  font-size: 28px;
+  border-bottom: dashed 1px #ff8080;
+  margin: 15px;
+  margin-left:20px;
+}
+
+.section{
+  color: #d76e6e;
+  font-family: メイリオ;
+  font-size: 21px;
+  border-bottom: dashed 1px #ff8080;
+  margin: 15px;
+  margin-left:10px;
+}
+
+.subsection{
+  color: #d76e6e;
+  font-family: メイリオ;
+  font-size: 18px;
+  border-bottom: dashed 1px #ff8080;
+  margin: 15px;
+  margin-left:10px;
+}
+
+.subsubsection{
+  color: #d76e6e;
+  font-family: メイリオ;
+  font-size: 16px;
+  border-bottom: dashed 1px #ff8080;
+  margin: 15px;
+  margin-left:10px;
+}
+
+.description{
+  font-size: 14px;
+  margin-left:20px;
+  text-height: 1.5em;
+}
+
+.descriptionCenter{
+  font-size: 14px;
+  margin: 10px;
+  margin-left:20px;
+  text-align:center;
+  text-height: 1.5em;
+}
+
+/* リスト関係 */
+
+.listPadding{
+  padding-left: 30px;
+}
+
+.square{
+  list-style: square;
+}
+
+.disc{
+  list-style: disc;
+}
+
+/* 画像関係 */
+
+.imageLeft{
+  text-align: left;
+}
+
+.imageRight{
+  text-align: right;
+}
+
+.imageCenter{
+  text-align: center;
+}
+
+.imageMarginUB{
+  margin-up: 20px;
+  margin-bottom: 20px;
+}
+
+footer{
+  text-align:center;
+  background-color: #f5c2c2;
+}
