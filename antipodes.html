@@ -27,22 +27,14 @@
 
   <section>
    <article>
+    <script src="./date.js"></script>
+    <script src="./month_greeting.js"></script>
     <h1 class="welcome">こんばんは！</h1>
-    <p class="descriptionCenter">今日は<div id="date"></div>
-      <script src="./date.js">
-        document.getElementByID("date").innerHTML = showTime();
-
-        function showTime(){
-          let date = Date();
-          return date;
-        }
-      </script>
-     です．
-    </p>
+    <p class="descriptionCenter">今日は<div id="date"> </div>です．<div id="monthly"> </div></p>
    </article>
    <article>
     <h2 class="section">このサイトについて</h2>
-    <p class="description"> ここは情報技術サークル(ITC)のPROG部制作班用のサイトです．ここに、毎週のお題を表示したり、資料を配置したりします．</p>
+    <p class="description"> ここは情報技術サークル(ITC)のPROG部制作班用のサイトです．ここに、毎週のお題を表示したり、資料を配置したりしたいです．</p>
    </article>
   </section>
 
