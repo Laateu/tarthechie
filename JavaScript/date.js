@@ -12,6 +12,6 @@ function showTime(){
   let minutes = dates.getMinutes();
   let seconds = dates.getSeconds();
   /* padStart() : ゼロ埋めをする  */
-  let message = "今日は" + month + "/" + date + "(" + days[day] + ")" + hour.padStart(2,"0") + ":" + minutes.padStart(2,"0") + ":" + seconds.padStart(2,"0") + "です．";
+  let message = "今日は" + month + "/" + date + "(" + days[day] + ")" + hour.toString().padStart(2,"0") + ":" + minutes.toString().padStart(2,"0") + ":" + seconds.toString().padStart(2,"0") + "です．";
   return message;
 }
