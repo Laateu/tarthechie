@@ -1,4 +1,4 @@
-document.getElementById("monthly").innerHTML += showGreetings();
+document.getElementById("monthly").innerHTML = showGreetings();
 
 function showGreetings(){
   let date = new Date();
