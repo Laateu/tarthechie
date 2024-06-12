@@ -8,6 +8,6 @@ function showTime(){
   let date = dates.getDate();
   let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   let day = dates.getDay();
-  let message = "今日は" + month + "/" + day + "(" + days[day] + ")です．";
+  let message = "今日は" + month + "/" + date + "(" + days[day] + ")です．";
   return message;
 }
