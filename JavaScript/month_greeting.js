@@ -6,7 +6,7 @@ function showGreetings(){
   let month = dates.getMonth() + 1;
   let hour = dates.getHours();
   let minutes = dates.getMinutes();
-  if(hour == 2 && minutes <= 30){
+  if(hour == 8 && minutes <= 40){
     message = "繧ゅ≧縺ｭ縺ｾ縺励ｇ縺 縺倥?繧薙?縺九ｉ縺?繧 縺溘☆縺代※縺ゅ￡縺ｦ";
   }
   else{
