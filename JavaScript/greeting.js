@@ -12,7 +12,7 @@ function greeting(){
   else if(hour > 9 && hour <= 18){
     message = "こんにちは！";
   }
-  else if(hour == 2 && minutes <= 30){
+  else if(hour == 8 && minutes <= 40){
     message = "縺薙ｓ縺ｰ繧薙?！";
   }
   return message;
