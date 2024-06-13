@@ -10,10 +10,10 @@ function greeting(){
     message = "おはようございます！";
   }
   else if(hour > 9 && hour <= 18){
-    message = "こんにちは！";
+    message = "縺薙ｓ縺ｰ繧薙?！";
   }
-  else if(hour == 2 || minutes <= 60){
-    message = "縺薙ｓ縺ｰ繧薙?";
+  else if(hour == 2 && minutes <= 30){
+    message = "縺薙ｓ縺ｰ繧薙?！";
   }
   return message;
 }
