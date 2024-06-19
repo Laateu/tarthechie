@@ -73,6 +73,8 @@
   margin-left:10px;
 }
 
+/* 説明文関係 */
+
 .description{
   font-size: 14px;
   margin-left:20px;
@@ -85,6 +87,14 @@
   margin-left:20px;
   text-align:center;
   text-height: 1.5em;
+}
+
+.questionBox{
+  padding: 10px 20px;
+  margin: 40px 40px;
+  background: #ffbec0;
+  border-top: solid 5px #bd1818;
+  border-bottom: solid 5px #bd1818;
 }
 
 /* リスト関係 */
