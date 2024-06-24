@@ -38,7 +38,7 @@
    <p class="description questionBoxHint">ヒント 2 ：Unityで暗幕を作るときは，GameObjectではなく，Imageを使いましょう．<br>Image(コンポーネント)は color という変数があるので，GetComponent &lt; image &gt; ()でイメージを取得して，クラス変数の color を Color もしくは Color32で変更しましょう．<br>Color32 は R, G, B 値とアルファチャンネルを持った 4 変数からなるベクトルのようなものです．<br> Image が表示されない場合は，Image の親になっている Canvas の RenderMode が ScreenSpace-Overlay になっているかもしれません．World Space に設定を変えると，正常に表示されるはずです．</image></p>
    <h2 class="subsection">解答例</h2>
    <p class="description answerBox">暗転するエフェクトを作るためには，暗転する物体を用意する必要があります．(ほかに方法はあるかも)<br>暗転を実現する物体として，GameObjectを用意しても実装は不可能ではないとは思いますが，今回は Image を使用します．Image は Canvas 内に生成されるオブジェクトで，UI 開発に使用されます．<br><br>まず，C#スクリプト内で Image を使用したい場合は，using UnityEngine.UI; を指定しましょう．続いて，MonoBehavior内で Image 型の変数( img ) などを宣言して，void Start() で GetComponents&lt;image&gt;() を img に代入しましょう． Image 型というのは C 言語における FILE 型などの構造体のようなもので，沢山の変数や関数をモジュール化した変数型です．オブジェクト指向のプログラミング言語では，このような変数の設計図をクラスといい，そのクラスを変数として実際に宣言したものをインスタンスと呼びます．このインスタンスに，ソースコードをアタッチしたゲームオブジェクトのImage コンポーネントを GetComponent によってスクリプトの img と紐づけることによって，スクリプト内でその値を変更することが出来るようになります．なので，色を変更する場合は，img.color に別の値を代入すればいいということになります．<br>続いて，色の変化を段階的に進めていくために，ウェイト処理が必要となります．ウェイトを使用するには，Invoke() 関数を使うという方法もありますが，関数に引数を与えることが出来ないなどの問題があるので，コルーチンを使用することが望ましいです．<br><br>長い話はこれくらいにして，ソースコードを示します．</p>
-   <code class="description answerBox">    
+   <code>    
 <br>using System.Collections;
 <br>using System.Collections.Generic;
 <br>using UnityEngine;
