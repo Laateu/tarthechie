@@ -97,6 +97,14 @@
   border-bottom: solid 5px #bd1818;
 }
 
+.questionBoxHint{
+  padding: 10px 20px;
+  margin: 40px 40px;
+  background: #c0beff;
+  border-top: solid 5px #1818bd;
+  border-bottom: solid 5px #1818bd;
+}
+
 /* リスト関係 */
 
 .listPadding{
