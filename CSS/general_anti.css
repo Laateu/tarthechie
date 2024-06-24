@@ -105,6 +105,14 @@
   border-bottom: dashed 5px #1818bd;
 }
 
+.answerBox{
+  padding: 10px 20px;
+  margin: 40px 40px;
+  background: #bec0ff;
+  border-top: double 5px #18bd18;
+  border-bottom: double 5px #18bd18;
+}
+
 /* リスト関係 */
 
 .listPadding{
