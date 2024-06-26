@@ -21,13 +21,13 @@ public class BlackOut : MonoBehaviour
     }
 
     IEnumerator Black_Out(float time,int N){
-        int black = 0;
-        float stage = time / N; //1ループでのアルファ値の変化幅 
+        int alpha = 0; //アルファ値
+        float step = time / N; //1ループでのアルファ値の変化幅 
         /* ループ */
         for (int i = 0;i < N;i++){
-            black = 255 * (i + 1) / N;
-            image.color = new Color32(0, 0, 0, (byte)black);
-            yield return new WaitForSeconds(stage); 
+            alpha = 255 * (i + 1) / N;
+            image.color = new Color32(0, 0, 0, (byte)alpha);
+            yield return new WaitForSeconds(step); //ウェイト
         }
     }
 }
