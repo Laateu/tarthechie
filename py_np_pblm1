@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+  <title>すこしまじめなはなし</title>
+  <link rel="stylesheet" href="./CSS/normalize.css"/>
+  <link rel="stylesheet" href="./CSS/general.css"/>
+  <link rel="stylesheet" href="./CSS/index.css"/>
+ </head>
+ <body>
+  <header id="pageHead">
+   <div class = "head">
+    <p id="titleMargin"> </p>
+    <h1 id="title">ホームページ</h1>
+    <p id="catchcopy">なにものかのなにものかによるなにものかのための処刑場</p>
+   </div>
+   <nav class="globalNavi">
+    <ul>
+     <li><a href="./index.html">HOME</a></li>
+     <li><a href="./introduction.html">ABOUT US</a></li>
+     <li><a href="./games.html">GAMES</a></li>
+     <li><a href="./musics.html">MUSIC ROOM</a></li>
+     <li  class="current"><a href="./py_np_pblm1.html">すこしまじめなハナシ</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <section>
+   <h1 class="emphasize">Numpy で気を付けること【メモ】</h1>
+    <p class="description">PythonのNumpyでは 2 次元配列のスライスを 1 次元配列として扱う．そのため，スライスを列方向(axis = 1)に結合して新しい2 次元配列を作ろうとすると，軸が無いというエラーになる．対策としては，以下の2つの方法がある．</p>
+    <ul>
+    <li>np.hstack() を使う</li>
+    <li>.reshape() で 2 次元配列にする</li>
+    </ul>
+    <p class="descirption">とりあえず現時点では以上．(もっとまじめに書いていた方が消えてしまったので暫定)</p>
+  </section>
+  <footer>
+   <p>2024 Taal</p>
+  </footer>
+ </body> 
+</html>
